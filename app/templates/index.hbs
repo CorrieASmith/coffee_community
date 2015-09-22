@@ -1,0 +1,11 @@
+<h1> Coffee Lover's Community </h1>
+
+We hope you find exactly what you're looking for.
+
+<ul class="fa-ul">
+  {{#each model as |article-unit|}}
+  {{article-tile article=article-unit update="update" destroyArticle="destroyArticle"}}
+  {{/each}}
+</ul>
+
+{{new-article save2="save3"}}

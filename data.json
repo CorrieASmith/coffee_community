@@ -1,0 +1,17 @@
+{ "articles": [{
+  "author": "Corrie Smith",
+  "articleTitle": "To coffee or not to coffee?",
+  "article": "text to be written by author Corrie..",
+  "image": "https://mcavoydl.files.wordpress.com/2014/03/shakespeare-coffee-foam.jpg"
+  }, {
+    "author": "Corrie Smith",
+    "articleTitle": "Health benefits of coffee",
+    "article": "text to be written by author Corrie..",
+    "image": "http://www.magicalmaths.org/wp-content/uploads/2013/03/The-top-10-health-benefits-of-Drinking-coffee.jpg"
+    }, {
+      "author": "Corrie Smith",
+      "articleTitle": "Can coffee boost an economy?",
+      "article": "text to be written by author Corrie..",
+      "image": "https://agenda.weforum.org/wp-content/uploads/2015/01/RTR21CJO-628x330.jpg"
+      }]
+    }

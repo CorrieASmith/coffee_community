@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'coffee-community',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://coffee-community.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

@@ -1,0 +1,11 @@
+<li><h4><i class="fa fa-home"></i> {{#link-to 'article' article.id}}{{article.author}}'s {{article.articleTitle}} {{/link-to}}</h4>
+  {{#if isArticleShowing }}
+  <p><img src={{article.image}} alt={{article.articleTitle}} {{action 'articleHide'}}></p>
+  {{else}}
+  <br /><button class="btn btn-info"  {{action 'articleShow'}}><i class="fa fa-picture-o"></i></button>
+  {{/if}}
+  <!-- {{update-article article=article update="update"}} -->
+
+  <button class="btn btn-danger" {{action 'delete' article}}><i class="fa fa-trash-o"></i></button><br />
+</li>
+<br />
