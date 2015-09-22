@@ -1,3 +1,115 @@
-<h2 id="title">Welcome to Ember</h2>
+<!-- <header class = "jumbotron">
+  <h1>Coffee Community</h1>
+</header>
+-->
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <a id="coffee1" href="https://devoncaira.wordpress.com/2015/03/23/coffee-lover-here-are-my-top-5-benefits-of-coffee-consumption/">
+      <img src="https://devoncaira.files.wordpress.com/2015/03/diff-types-coffee.jpg" alt="coffee1"></a>
+      <div class="carousel-caption">
+        <h3>Coffee lover?</h3>
+        <p>Here are my top 5 benefits of coffee consumption…</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <a id="coffee2" href="http://www.medicalnewstoday.com/articles/270202.php">
+      <img src="http://cdn1.medicalnewstoday.com/content/images/articles/289/289891/coffee.jpg" alt="coffee2"></a>
+      <div class="carousel-caption">
+        <h3>Coffee Health Benefits</h3>
+        <p>A cup of coffee in the morning may pack more than just an energy boost.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <a id="coffee3" href="http://www.huffingtonpost.com/2013/10/17/coffee-health-benefits_n_4102133.html">
+      <img src="http://www.firstpreswc.com/files/5214/3023/2851/coffee.jpeg" alt="coffee3"></a>
+      <div class="carousel-caption">
+        <h3>Need more excuses to drink coffee?</h3>
+        <p>We have eleven of them!</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <a id="coffee4" href="http://www.nytimes.com/2012/04/08/magazine/can-coffee-kick-start-an-economy.html?_r=0">
+        <img src="http://noblypos.com/wp-content/uploads/coffee-and-breakfast1.png" alt="coffee4"></a>
+        <div class="carousel-caption">
+          <h3>Can coffee stop the impending second Great Depression?</h3>
+          <p>Find out here. You know you want to.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <a id="coffee5" href="http://www.travelportland.com/article/downtown-portland-coffee-crawl/">
+          <img src="http://www.travelportland.com/wp-content/uploads/2013/07/FD_CoffeeTea_Barista_Sagacity_DylanHarkavy-652x521.jpg" alt="coffee5"></a>
+          <div class="carousel-caption">
+            <h3>Downtown Portland coffee crawl</h3>
+            <p>Sample Portland’s (other) brewing scene at these downtown cafés.</p>
+          </div>
+        </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 {{outlet}}
